@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "Chivo";
+  src: url("/fonts/Chivo/Chivo-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Chivo";
+  src: url("/fonts/Chivo/Chivo-Bold.ttf");
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Chivo";
+  src: url("/fonts/Chivo/Chivo-Light.ttf");
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Facon";
+  src: url("/fonts/Facon/Facon.ttf");
+  font-style: normal;
+
+  font-display: swap;
+}
+
+@viewport {
+  width: device-width;
+  zoom: 0.1;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Chivo";
+
+  transition: all 0.5s ease;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #0033ad;
+  --secondary-color: #ffff00;
+  --white: #ffffff;
+  --title: #ffff00;
+  --text-dark: #333333;
+  --text-light: #ffffff;
+  --text-buttons: #2a71d0;
+}
+
+.title {
+  padding: 0;
+  margin: 0;
+  color: var(--secondary-color);
+  text-shadow: 0px 0px 10px #06003f;
+
+  font-family: "Chivo";
+  font-size: 50px;
+  @media (max-width: 1100px) {
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+    font-size: 45px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 35px;
+    text-align: center;
+  }
+  @media (max-width: 370px) {
+    font-size: 30px;
+    text-align: center;
+  }
+  @media (max-height: 430px) {
+    font-size: 15px;
+  }
+}
+
+.text {
+  color: #ffffff;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 25px;
+  margin: 10px 0;
+  text-shadow: 0px 0px 20px #06003f;
+
+  @media (max-width: 1100px) {
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 18px;
+    text-align: center;
+  }
+  @media (max-width: 370px) {
+    font-size: 15px;
+  }
+  @media (max-height: 430px) {
+    font-size: 15px;
+  }
+}
+
+.titles {
+  padding: 0;
+  margin: 0;
+  color: var(--secondary-color);
+  font-family: "Chivo";
+  font-size: 60px;
+  text-shadow: 0px 0px 20px #06003f;
+
+  padding-top: 100px;
+  padding-bottom: 20px;
+
+  font-weight: 700;
+  // padding-bottom: 50px;
+  letter-spacing: 2px;
+  @media (max-width: 600px) {
+    font-size: 40px;
+  }
+}
+
+//TEXT ANIMATION
+
+.custom-class {
+  z-index: 999;
+}
+
+//404

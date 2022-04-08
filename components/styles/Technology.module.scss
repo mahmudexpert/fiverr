@@ -1,0 +1,261 @@
+.container {
+  //   margin-top: 200px;
+  min-width: 100vw;
+  padding-top: 100px;
+
+  height: 100vh;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Chivo";
+  overflow: hidden;
+  // padding-bottom: 100px;
+  background: transparent;
+  background-image: -webkit-linear-gradient(
+    112deg,
+    transparent 50%,
+    var(--main-color) 50%
+  );
+
+  // background-position-y: 50px;
+  // background-repeat: no-repeat;
+}
+
+.null {
+  margin-top: -10px;
+  width: 100%;
+  height: 30px;
+  background-color: var(--main-color);
+}
+
+.main {
+  height: 100vh;
+}
+
+.content {
+  max-width: 1280px;
+  margin: 0 auto;
+  flex: 1;
+  // margin-top: -100px;
+  // @media (min-width: 600px) {
+  //   padding: 0 3rem;
+  // }
+  padding: 0 30px;
+
+  margin-top: -100px;
+  @media (max-width: 600px) {
+    padding: 0;
+  }
+}
+
+.logos {
+  margin-bottom: 20px;
+  @media (max-height: 430px) {
+    max-width: 20px;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+}
+
+.title {
+  padding: 0;
+  margin: 0;
+  color: var(--secondary-color);
+  font-family: "Chivo";
+  font-size: 40px;
+  font-weight: 700;
+  padding: 0 20px;
+  @media (max-width: 1100px) {
+    text-align: center;
+    font-size: 45px;
+  }
+  @media (max-width: 768px) {
+    font-size: 45px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 35px;
+    text-align: center;
+  }
+  @media (max-width: 370px) {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+.text {
+  color: #ffffff;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 25px;
+  margin: 10px 0;
+  font-weight: 400;
+  padding: 0 20px;
+  padding-right: 0;
+  text-shadow: 0px 0px 20px #06003f;
+  max-width: 700px;
+
+  @media (max-width: 1100px) {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+  }
+  @media (max-width: 768px) {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 18px;
+    text-align: center;
+  }
+  @media (max-width: 370px) {
+    font-size: 15px;
+  }
+  @media (max-height: 430px) {
+    font-size: 15px;
+  }
+}
+
+.details {
+  align-items: flex-start;
+  max-width: 800px;
+  display: flex;
+  margin: 0 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 25px;
+  @media (max-height: 430px) {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.textanim {
+  font-family: "Chivo";
+  letter-spacing: 1px;
+  text-align: center;
+  h1 {
+    background-image: url(https://media.giphy.com/media/xT9IgqjmZ870vakg4E/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+
+    font-size: 80px;
+    line-height: 0.75;
+    margin: 10px 0;
+    @media (max-width: 1200px) {
+      font-size: 55px;
+    }
+    @media (max-width: 768px) {
+      font-size: 50px;
+    }
+    @media (max-width: 370px) {
+      font-size: 30px;
+      text-align: center;
+      margin: 0;
+    }
+    @media (max-height: 430px) {
+      font-size: 20px;
+    }
+  }
+}
+.textanim2 {
+  font-family: "Chivo";
+  letter-spacing: 1px;
+  text-align: center;
+  h1 {
+    background-image: url(https://media.giphy.com/media/l4pSU4i8084YnvvLG/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+
+    font-size: 80px;
+    line-height: 0.75;
+    margin: 10px 0;
+    @media (max-width: 1100px) {
+      font-size: 55px;
+    }
+    @media (max-width: 768px) {
+      font-size: 50px;
+    }
+    @media (max-width: 370px) {
+      font-size: 30px;
+      text-align: center;
+      margin: 0;
+    }
+    @media (max-height: 430px) {
+      font-size: 20px;
+    }
+  }
+}
+
+.data {
+  display: flex;
+  justify-content: space-around;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.main {
+  position: relative;
+}
+
+.textbox {
+  display: flex;
+
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+  z-index: 999;
+
+  @media (max-width: 1100px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.texts {
+  max-width: 39.1rem;
+  margin-right: 30px;
+
+  @media (max-width: 1200px) {
+    max-width: 36.1rem;
+  }
+  @media (max-width: 1100px) {
+    max-width: 41.1rem;
+    margin-right: 0px;
+  }
+  @media (max-width: 600px) {
+    max-width: 100%;
+    padding: 0;
+  }
+}
+
+.titles {
+  padding: 0;
+  margin: 0;
+  color: var(--secondary-color);
+  font-family: "Chivo";
+  font-size: 60px;
+  text-shadow: 0px 0px 20px #06003f;
+  padding: 0 20px;
+  font-weight: 700;
+  // padding-bottom: 50px;
+  letter-spacing: 2px;
+  @media (max-width: 600px) {
+    font-size: 40px;
+    text-align: center;
+  }
+  @media (max-height: 430px) {
+    font-size: 20px;
+  }
+}
